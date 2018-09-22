@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>GifTastic</title>
+
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+  
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="text-center">Anime GifTastic</h1>
+    <br>
+    <br>
+    <div id="anime-buttons"> </div>
+    <br>
+    <br>
+    <div class="container" id="btn">
+      <form id="anime-form">
+        <label id="add" for="user-input">Please enter your favortie Anime</label>
+        <input type="text" class="form-control" id="user-input">
+        <br>
+        <br>
+      </form>
+      <button onclick="submitButtonClicked()" type="button" id="add-anime" class="btn btn-success">Submit</button>
+      <br>
+      <br>
+      <div id="anime"> </div>
+    </div>
+  </div>
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+</html>
