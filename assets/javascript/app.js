@@ -1,5 +1,5 @@
 //variable array containing topics
-var topics= ["One Piece", "Naruto", "Dragon Ball Z", "HunterXHunter", "Cowboy Bebop", "Samurai Champloo", "Soul Eater"]
+var topics= ["Anime", "Sports", "Tv", "Clothing", "Cars", "News", "Videogames"]
 
 
 //On ready use loop of var topics to append button
@@ -31,7 +31,7 @@ var topics= ["One Piece", "Naruto", "Dragon Ball Z", "HunterXHunter", "Cowboy Be
   
   function searchGif(gifName) {       //call ajax    gifName parameter
     $.ajax({
-      url: 'https://api.giphy.com/v1/gifs/search?q= ' + gifName + ' &api_key=dc6zaTOxFJmzC&limit=10',
+      url: 'https://api.giphy.com/v1/gifs/search?q= ' + gifName + ' &api_key=dc6zaTOxFJmzC&limit=12',
       type: 'GET',
     })
       .then(function (response) {         //.then; success when the deferred is resolved
